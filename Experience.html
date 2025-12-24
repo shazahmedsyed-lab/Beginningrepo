@@ -8,10 +8,105 @@
 <body>
     <h1>Begins with the basic tags</h1>
     <pre>
-     Here I learnt about the basic tags, attributes, img src and hrf and bold italic stuff
+    <h2> Here I learnt about the basic tags, attributes, img src and href</h2>
     </pre>
     <br>
+    <hr>
+    <div>
+        <b>List of Topics COvered</b>
+        <ol>
+            <li>Basics of HTML</li>
+            <ul>
+                <li>From Tags to Ordered and Unordered Lists and target = "-main"</li>
+            </ul>
+            <li>Common tags and attributes</li>
+            <li>img and href links(relative and absolute)</li>
+            <li>Header main And Footer</li>
+            <li>Article Aside and Section</li>
+            <li>Links using images</li>
+            <li>bold italic Underlined And Big and Small fonts</li>
+            <li>Div and span</li>
+            <li>Forms and Action feedback</li>
+            <li>Labels, Radio Buttons, Value, Name ANd IDS</li>
+            <li>checkbox, submit , textarea , select Options</li>
+            <li>Iframe and video(only for mp4 and vids)</li>
+        </ol>
+    </div>
     <img src = "https://tse3.mm.bing.net/th/id/OIP.kVkjYEbIM78KnGj3m5Vk-QHaEK?pid=Api&P=0&h=180" alt = "Nothing usegul"/>
+    <hr>
+    <!-- Tables IN HTML -->
     
+        <table>
+            <caption><big><b>Formula 1 Drivers Champions</b></big></caption>
+            <tr>
+                <thead>
+                <th>Name</th>
+                <th>Team</th>
+                <th>World championships</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Max Verstappen</td>
+                <td>Red Bull</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Lando Norris</td>
+                <td>Mclaren</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Lewis Hamilton</td>
+                <td>Ferrari</td>
+                <td>8*</td>
+            </tr>
+        </tbody>
+        </table>
+         <hr>
+         <h2> FORMS </h2>
+         <form action = "./action.php">
+            <input type = "text" placeholder="username">
+            <br>
+            <br>
+            <input type = "password" placeholder="Password">
+            <br>
+            <br>
+            <!-- Labels -->
+             <p><b>Select your class</b></p>
+             <br>
+             <label for = "199">
+             <input type = "radio" value = "class 11" name = "class" id = "199">class 11
+            </label>
+            <br> 
+            <label for = "50">
+             <input type = "radio" value = "class 12" name = "class" id = "50">class 12
+            </label>
+            <br>
+            <!-- Multiple Options -->
+             <p><b>Select relevant Options</b></p>
+             <label for = "MALE">
+                <input type = "checkbox" value = "MALE" name = "Gender" id ="MALE">Male
+             </label>
+             <br>
+             <label for = "Human">
+                <input type = "checkbox" value = "Human" name = "Gender" id ="Human">Human
+             </label>
+             <hr>
+             <br>
+             <p>Select your city</p>
+            
+             <select name = "City">
+                <option value = "Hyd">Hyd</option>
+                <option value = "Del">Del</option>
+                <option value = "Pune">Pune</option>
+                <option value = "Chennai">Chennai</option>
+             </select>
+             <br>
+             <br>
+             <textarea name ="feedback" id ="101" placeholder="Please give your feedback here" cols = 50></textarea>
+             <br><br>
+             <input type ="submit" value = "Login">
+            </form>
 </body>
 </html>
